@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Game</title>
+</head>
+
+<body>
+    <h2 class="header">
+        <div>Score <span class="score">0</span></div>
+        <progress min="0" max="10" value="0"></progress>
+        <div>&copy;Anshu</div>
+    </h2>
+    <div class="restart">
+        <h1 class="ket">Victory</h1>
+        <h2 class="rank">Play Again?<span></span></h2><br>
+        <button class="tombol-restart">Restart</button>
+    </div>
+    <div class="container">
+        <div class="kartu" data-index-number="0"></div>
+        <div class="kartu" data-index-number="1"></div>
+        <div class="kartu" data-index-number="2"></div>
+        <div class="kartu" data-index-number="3"></div>
+        <div class="kartu" data-index-number="4"></div>
+        <div class="kartu" data-index-number="5"></div>
+        <div class="kartu" data-index-number="6"></div>
+        <div class="kartu" data-index-number="7"></div>
+        <div class="kartu" data-index-number="8"></div>
+        <div class="kartu" data-index-number="9"></div>
+        <div class="kartu" data-index-number="10"></div>
+        <div class="kartu" data-index-number="11"></div>
+    </div>
+    <audio src="./audio/warning.mp3" class="warning"></audio>
+    <audio src="./audio/wrong.mp3" class="wrong"></audio>
+    <audio src="./audio/correct.mp3" class="correct"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
